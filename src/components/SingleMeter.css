@@ -1,0 +1,37 @@
+.SingleMeter {
+  max-width: 3.8rem;
+}
+
+h2 {
+  font-size: 1rem;
+  transform: translate(1.5rem, 1.2rem);
+  margin-right: 0;
+  padding-right: 0;
+  max-width: 0.5rem;
+  color: rgb(49, 18, 78);
+}
+
+.progress {
+  max-width: 5rem;
+  transform: rotate(-90deg);
+  appearance: none;
+  height: 0.7rem;
+  border-radius: 5px;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: rgb(49, 18, 78);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(121, 65, 173) inset;
+  transition: background-color, 0.7s;
+}
+
+progress::-webkit-progress-bar {
+  background: #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px white inset;
+}
+
+progress::-moz-progress-bar {
+  background: lightcolor;
+}
